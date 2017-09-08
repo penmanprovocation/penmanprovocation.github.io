@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>The Penman's Provocation</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	
+	<!-- ====================================================
+	header section -->
+	<header class="top-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-5 header-logo">
+					<br>
+					<a href="index.html"><img src="img/logo.png" alt="" class="img-responsive logo"></a>
+				</div>
+
+				<div class="col-md-7">
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid nav-bar">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					    </div>
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      
+					      <ul class="nav navbar-nav navbar-right">
+					        <li><a class="menu active" href="#home" >Home</a></li>
+					        <li><a class="menu" href="#charac">Character</a></li>
+					        <li><a class="menu" href="#content">Content</a></li>
+					        <li><a class="menu" href="#submit">Submit</a></li>
+  
+					      </ul>
+					    </div><!-- /navbar-collapse -->
+					  </div><!-- / .container-fluid -->
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header> <!-- end of header area -->
+
+	<section class="slider" id="home">
+		<div class = "storyDisp"><p><iframe src="Resume.htm" frameborder="0" height="400"
+      width="95%"></iframe></p></div>
+	</section><!-- end of slider section -->
+
+	<!-- Character section -->
+	<section class="characSection text-center" id="charac">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail clearfix">
+						<div class="about-img">
+							<img class="img-responsive" src="img/protag.jpg" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>P</h1>
+							</div>
+							<h3>Generate a Protagonist</h3>
+							<button class = "buttonGen" id="protagonistButton" type="button">Create</button>
+                            <p id="protag"></p>
+                            
+						</div>
+                        
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/second.png" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>C</h1>
+							</div>
+
+							<h3>Secondary Character</h3>
+							<button class = "buttonGen" id="NPCbutton" type="button">Create</button>
+                            <p id="NPCRes"></p>
+                            						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/antag.png" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>A</h1>
+							</div>
+							<h3>Generate an Antagonist</h3>	                            <button class = "buttonGen" id="antagonistButton" type="button">Create</button>
+                            <p id="antag"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of about section -->
+    
+    	<!-- Content section -->
+	<section class="contentSection text-center" id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail clearfix">
+						<div class="about-img">
+							<img class="img-responsive" src="img/Location.jpg" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>L</h1>
+							</div>
+							<h3>Find a Location</h3>
+							<button class = "buttonGen" id="earthButton" type="button">Real</button><button class = "buttonGen"  id="mythButton" type="button">Mythical</button>
+                            <p id="locText"></p>
+                            </div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/perspect.png" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>P</h1>
+							</div>
+
+							<h3>Generate Perspective</h3>
+							 <button class = "buttonGen" id="perspectiveButton" type="button">Create</button>
+                            <p id="perRes"></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/Secret.png" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>S</h1>
+							</div>
+							<h3>Generate a Secret</h3>
+							<button class = "buttonGen" id="secButton" type="button">Create</button>
+                            <p id="secRes"></p>
+                            
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of 
+
+	<!-- contact section starts here -->
+	<section class="contact" id="submit">
+		<div class="container">
+			<div class="row">
+					<div class="col-md-6 col-md-offset-3 contact-form">
+						<h3>Submit Your Story!</h3>
+						<form class="form">
+							<input class="name" type="text" placeholder="Name">
+							<input class="email" type="email" placeholder="Email">
+							<input class="phone" type="text" placeholder="Attach File">
+							<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+							<input class="submit-btn" type="submit" value="SUBMIT">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of contact section -->
+
+	<!-- footer starts here -->
+	<footer class="footer clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 text-right">
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-skype"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- script tags
+	============================================================= -->
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="js/gmaps.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/Arrays.js"></script>
+    <script>
+    
+    $(document).ready(function() {
+        
+    $('#perspectiveButton').on('click', function () {
+        var num = Math.floor((Math.random() * 6) + 0);
+        $("#perRes").html(perspectives[num]);           
+    });
+        
+    $('#protagonistButton').on('click', function () {
+        var numOne = Math.floor((Math.random() * fName.length) + 0);
+        var numTwo = Math.floor((Math.random() * lName.length) + 0);
+        var agePro =  Math.floor((Math.random() * 100) + 10);
+        var proCharOne = Math.floor((Math.random() * posChar.length) + 0);
+        var proCharTwo = Math.floor((Math.random() * posChar.length) + 0);
+        var nueCharOne = Math.floor((Math.random() * nuetChar.length) + 0);
+        var negCharOne = Math.floor((Math.random() * negChar.length) + 0);
+        $("#protag").html(fName[numOne] + " " + lName[numTwo] + " " + "<br>" + fName[numOne] + " is " + agePro + ", " + posChar[proCharOne] + ", " + posChar[proCharTwo] + ", and " + nuetChar[nueCharOne] + "<br> At times, they can also be " + negChar[negCharOne]);
+    });
+        
+    $('#antagonistButton').on('click', function () {        
+        var numOne = Math.floor((Math.random() * fName.length) + 0);
+        var numTwo = Math.floor((Math.random() * lName.length) + 0);
+        var ageAnt =  Math.floor((Math.random() * 100) + 10);
+        var negCharOne = Math.floor((Math.random() * negChar.length) + 0);
+        var negCharTwo = Math.floor((Math.random() * negChar.length) + 0);
+        var nueCharOne = Math.floor((Math.random() * nuetChar.length) + 0);
+        var posCharOne = Math.floor((Math.random() * posChar.length) + 0);
+        $("#antag").html(fName[numOne] + " " + lName[numTwo] + " " + "<br>" + fName[numOne] + " is " + ageAnt + ", " + negChar[negCharOne] + ", " + negChar[negCharTwo] + ", and " + nuetChar[nueCharOne] + "<br> At times, they can also be " + posChar[posCharOne]);
+    });
+        
+    $('#NPCbutton').on('click', function () {  
+        var numOne = Math.floor((Math.random() * fName.length) + 0);
+        var numTwo = Math.floor((Math.random() * lName.length) + 0);
+        var negCharOne = Math.floor((Math.random() * negChar.length) + 0);
+        var nueCharOne = Math.floor((Math.random() * nuetChar.length) + 0);
+        var posCharOne = Math.floor((Math.random() * posChar.length) + 0);
+        $("#NPCRes").html(fName[numOne] + " " + lName[numTwo] + "<br>" + fName[numOne] + " is " + negChar[negCharOne] + ", " + nuetChar[nueCharOne] + ", and " + posChar[posCharOne]);
+    });        
+                
+        
+    $('#earthButton').on('click', function () {
+        var numOne = Math.floor((Math.random() * realLoc.length) + 0);
+        $("#locText").html("Your story could be set in " + realLoc[numOne]);
+    });    
+        
+    $('#mythButton').on('click', function () {
+        var numOne = Math.floor((Math.random() * mythLoc.length) + 0);
+        $("#locText").html("Your story could be set in " + mythLoc[numOne]);
+
+    });            
+    $('#secButton').on('click', function () {
+        var numOne = Math.floor((Math.random() * secrets.length) + 0);
+        $("#secRes").html("A character is hidding they " + secrets[numOne]);
+
+    });            
+        
+});
+    
+            
+    </script>
+
+</body>
+</html>
